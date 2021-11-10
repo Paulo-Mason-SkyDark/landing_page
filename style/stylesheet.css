@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body .flex-box{
+    display: flex;
+    width: 100%;
+}
+
+nav{
+    height: 3rem;
+    background-color: #4F4D53;
+}
+
+nav .espacamentoLateral{
+    margin-left: 15.625rem;
+}
+
+nav img {
+    margin-top: 0.75rem;
+}
+
+section .floatInformation {
+    background: url("../media/img_hero.jpg") no-repeat;
+    height: 100vh;
+    margin-bottom: -4.375rem;
+}
+section .floatInformation .floatWelcome .space-between{
+    margin: 0 4.375rem;
+}
+
+section .floatInformationTexts, .floatInformation{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+section .floatInformation h1{
+    font-weight: 900;
+    font-size: 7em;
+    color:#4F4D53;
+    margin: -2.3125rem;
+}
+
+section .floatInformationTexts h2{
+    font-weight: bold;
+    font-size: 4em;
+    color:#e8be02;
+    margin-bottom: 3rem;
+}
+
+section p{
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 8rem;
+}
+hr{
+   height: 0.625rem; 
+   background-color:#e8be02;
+   border: none;
+}
+
+footer {
+    background-color: #4F4D53
+}
+
+h3{
+    color:#e8be02;
+}
+h4{
+    color: white;
+    font-weight: 100;
+}
+
+footer .container {
+    margin: 0 15.625rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
